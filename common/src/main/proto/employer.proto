@@ -1,0 +1,81 @@
+syntax = "proto3";
+
+package org.example;
+option java_generic_services = true;
+option java_multiple_files = true;
+import "salary.proto";
+
+message Employer {
+  int64 id = 1;
+  string type = 2;
+  string number = 3;
+  string name = 4;
+  string numberIDE = 5;
+  string dateAffiliation = 6;
+  string dateRadiation = 7;
+  repeated Salary salaries = 8;
+}
+
+message EmployerNoSalaries {
+  int64 id = 1;
+  string type = 2;
+  string number = 3;
+  string name = 4;
+  string numberIDE = 5;
+  string dateAffiliation = 6;
+  string dateRadiation = 7;
+}
+
+message EmployerSearchCriteria {
+  string type = 1;
+  string number = 2;
+  string name = 3;
+  string numberIDE = 4;
+  string dateAffiliation = 5;
+  string dateRadiation = 6;
+  int32 maxRow = 7;
+  int32 pageIndex = 8;
+}
+message LastEmployerNumber {
+  string number = 1;
+}
+message Count {
+  int64 number = 1;
+}
+
+message EmployersPagination {
+  int32 maxRow = 1;
+  int32 pageIndex = 2;
+}
+
+message EmployerRequest {
+  string requestId = 1;
+  int32 maxRow = 2;
+  int32 pageIndex = 3;
+}
+message DeleteEmployerResponse {
+  bool success = 1;
+  string message = 2;
+}
+
+message AddEmployerResponse {
+  bool success = 1;
+  string message = 2;
+}
+
+service EmployerService {
+  rpc getEmployersSalariesCount(EmployerRequest) returns (Count);
+  rpc getEmployerById(EmployerRequest) returns (Employer);
+  rpc getSalaryById(EmployerRequest) returns (stream Salary);
+
+  rpc getEmployers(EmployersPagination) returns (stream EmployerNoSalaries);
+
+  rpc getEmployersByCriteriaCount(EmployerSearchCriteria) returns (Count);
+  rpc getEmployersByCriteria(EmployerSearchCriteria) returns (stream EmployerNoSalaries);
+
+  rpc getLastEmployerNumber(LastEmployerNumber) returns (LastEmployerNumber);
+
+  rpc deleteEmployerById(EmployerRequest) returns (DeleteEmployerResponse);
+  rpc addEmployer(Employer) returns (Employer);
+  rpc updateEmployer(Employer) returns (Employer);
+}

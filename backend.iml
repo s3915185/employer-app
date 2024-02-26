@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/backend" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/backend/target/generated-sources/org/example/model/entity" isTestSource="false" generated="true" />
+    </content>
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="8708dee7-9f06-4c91-8d81-523eaba5d5e6" />
+  </component>
+</module>

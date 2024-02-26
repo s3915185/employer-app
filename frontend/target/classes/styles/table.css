@@ -1,0 +1,291 @@
+.language-label-active {
+    -fx-text-fill: #59a6c6;
+}
+.language-label {
+    -fx-text-fill: #f5efee;
+}
+
+.table-view .column-header {
+    -fx-background-color: #ffffff;
+    -fx-border-width: 0 1 1 0;
+    -fx-border-color: #eeeeee;
+}
+
+.left-aligned-column {
+    -fx-alignment: CENTER-LEFT;
+}
+.right-aligned-column {
+    -fx-alignment: CENTER-RIGHT;
+}
+
+.center-aligned-column {
+    -fx-alignment: CENTER;
+}
+
+.table-view .placeholder .label {
+    -fx-font: 14px "Candara";
+    -fx-text-fill: #777777;
+}
+
+.table-view {
+    -fx-border-color: #eeeeee;
+}
+
+.table-row-cell {
+    -fx-cell-size: 40px;
+}
+
+.table-row-cell:filled {
+	-fx-background-color: transparent;
+}
+.table-row-cell:empty {
+	-fx-background-color: transparent;
+}
+.table-row-cell:filled:hover {
+	-fx-background-color: #eeeeee;
+}
+#functionView .table-row-cell:filled:hover {
+    -fx-background-color: transparent;
+}
+.table-row-cell:filled:selected:hover {
+	-fx-background-color: #eeeeee;
+}
+.table-row-cell:filled:selected .table-cell {
+	-fx-text-fill: black;
+    -fx-border-color: #eaeaea;
+}
+#tableView .table-row-cell:filled:selected {
+    -fx-background-color: #eaeaea;
+   -fx-background-insets: 0.0;
+    -fx-background-radius: 0.0;
+}
+#functionView .table-row-cell:filled:selected {
+    -fx-background-color: transparent;
+   -fx-background-insets: 0.0;
+    -fx-background-radius: 0.0;
+    -fx-border-color: transparent;
+}
+.table-view .filler {
+    -fx-background-color: #ffffff;
+}
+
+.table-view .column-header .label {
+    -fx-font: 14px "Candara";
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+}
+.table-view .column-header.left-aligned-column .label {
+    -fx-alignment: CENTER-LEFT;
+}
+
+.table-view .column-header.right-aligned-column .label {
+    -fx-alignment: CENTER-RIGHT;
+}
+
+.table-view .scroll-bar:horizontal .track,
+.table-view .scroll-bar:vertical .track{
+	-fx-background-color:#ffffff;
+	-fx-border-color:transparent;
+	-fx-background-radius: 0em;
+	-fx-border-radius:2em;
+}
+ 
+/* The increment and decrement button CSS class of scrollbar */
+.table-view .scroll-bar:horizontal .increment-button ,
+.table-view .scroll-bar:horizontal .decrement-button {
+    -fx-background-color:transparent;
+	-fx-background-radius: 0em;
+	-fx-padding:0 0 10 0;
+ 
+}
+ 
+/* The increment and decrement button CSS class of scrollbar */
+ 
+.table-view .scroll-bar:vertical .increment-button ,
+.table-view .scroll-bar:vertical .decrement-button {
+ 
+    -fx-background-color:transparent;
+	-fx-background-radius: 0em;
+	-fx-padding:0 10 0 0;
+ 
+}
+ 
+.table-view  .scroll-bar .increment-arrow,
+.table-view  .scroll-bar .decrement-arrow {
+	-fx-shape: " ";	
+	-fx-padding:0;
+}
+ 
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.table-view .scroll-bar:horizontal .thumb,
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color:derive(black,90%);
+	-fx-background-insets: 2, 0, 0;
+	-fx-background-radius: 2em;
+ 
+}
+
+#tableView {
+    -fx-border-width: 1 1 1 1;
+    -fx-border-color: #ffffff;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+#functionView {
+    -fx-border-width: 0 0 0 1;
+    -fx-border-color: #ffffff;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+#functionView .column-header {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #eeeeee;
+}
+
+
+.choice-box {
+    -fx-background-color: #ffffff; /* Background color */
+    -fx-font-family: "Candara"; /* Font family */
+    -fx-font-size: 14px; /* Font size */
+    -fx-text-fill: #000000; /* Text color */
+    -fx-border-color: #eeeeee;
+}
+
+.choice-box .context-menu {
+    -fx-cursor: hand;
+    -fx-border-color: #eeeeee;
+}
+
+.date-picker {
+    -fx-font-family: "Candara"; /* Font family */
+    -fx-font-size: 14px; /* Font size */
+    -fx-background-color: #ffffff;
+    -fx-border-color: #eeeeee;
+    -fx-cursor: hand;
+}
+
+.date-picker .cell {
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+
+.date-picker .cell:hover {
+    -fx-background-color: #eeeeee;
+    -fx-text-fill: #000000;
+}
+
+.date-picker .selected {
+    -fx-background-color: #3048ac;
+}
+.date-picker .selected:hover {
+    -fx-background-color: #3048ac;
+    -fx-text-fill: #ffffff;
+}
+
+.date-picker .arrow-button {
+	-fx-background-color: #ffffff;
+	-fx-background-radius: 0;
+}
+
+.date-picker:focus {
+    -fx-border-width: 0px;
+
+}
+.date-picker-popup  {
+	-fx-border-color: white;
+    -fx-background-color: white;
+    -fx-cursor: hand;
+}
+.date-picker-popup .month-year-pane {
+	-fx-background-color: white;
+}
+
+.date-picker-popup .month-year-pane .label {
+	-fx-text-fill: #3048ac;
+}
+.date-picker-popup .spinner .button {
+	-fx-background-color: white;
+}
+
+.text-field {
+    -fx-font-family: "Candara"; /* Font family */
+    -fx-font-size: 14px; /* Font size */
+    -fx-text-fill: #000000; /* Text color */
+    -fx-background-color: #ffffff; /* Background color */
+    -fx-border-color: #eeeeee; /* Border color */
+    -fx-border-width: 1px; /* Border width */
+}
+
+
+#tab_column_blend {
+    -fx-background-color: linear-gradient(to bottom,  #3048ac 20%, #ffffff);
+}
+
+
+#tab {
+    -fx-border-width: 0 1 0 0;
+    -fx-border-color:  #ffffff;
+    -fx-transition-duration: 0.3s;
+    -fx-border-color:  #e7faff;
+}
+
+.button-clicked {
+    -fx-background-color: #e7faff;
+    -fx-border-color:  #3048ac;
+}
+
+#tab:hover {
+    -fx-border-color:  #3048ac;
+}
+
+#shadowPane {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 2, 2);
+}
+
+.pagination {
+    -fx-page-information-visible: false;
+}
+
+/* Remove spacing */
+.pagination > .pagination-control > .control-box {
+    -fx-spacing: 0;
+    -fx-cursor: hand;
+}
+
+/* You can control the actual button sizes here */
+.pagination > .pagination-control > .control-box > .number-button,
+.pagination > .pagination-control > .control-box > .bullet-button,
+.pagination > .pagination-control > .control-box > .left-arrow-button,
+.pagination > .pagination-control > .control-box > .right-arrow-button {
+    -fx-background-insets: 0, 1;
+    -fx-background-color: lightgray, #FAFAFA;
+    -fx-min-width: 30;
+    -fx-min-height: 30;
+    -fx-font-family: "Candara";
+    -fx-font-size: 12px;
+
+}
+
+/* Colors on hover */
+.pagination > .pagination-control > .control-box > .number-button:hover,
+.pagination > .pagination-control > .control-box > .bullet-button:hover,
+.pagination > .pagination-control > .control-box > .left-arrow-button:hover,
+.pagination > .pagination-control > .control-box > .right-arrow-button:hover {
+    -fx-background-insets: 0;
+    -fx-background-color: lightgray;
+}
+
+/* Selected toggle color */
+.pagination > .pagination-control > .control-box > .number-button:selected,
+.pagination > .pagination-control > .control-box > .bullet-button:selected{
+    -fx-background-insets: 0;
+    -fx-background-color: #3048ac;
+    -fx-text-fill: white;
+}
+
+.pressed-button {
+    -fx-background-color: #DDDDDD; /* Adjust the background color as needed */
+    -fx-background-radius: 20;
+}

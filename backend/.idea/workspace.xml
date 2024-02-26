@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1dd40a89-9643-4a4a-80b5-7ab675c03a39" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/resourceBundles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/0/7/073c7845930db8770de5d454f553e2f0c9e865db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/0/c/0c48d6757bd1ac38671f2d30ae15a9b8d4093224" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/1/2/120cc357127df6163d4f1d0f39636a84b834c9db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/1/c/1c92bc1c4cbf5e9e4e79afea7fac471cc07b60ea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/2/a/2a341ee82c4f1b6dba63959ad6b4ffe24f3df33b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/3/6/3653015157e5d7085f16d34e45f58f08535d8586" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/3/6/36bcc80ebc3cfb63a4b3b6d116f98355d8c71b47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/4/3/4349725890ad128c2bb0b602c6d38ce8dd4ced79" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/4/8/485b3e7ca87e5489a707337db79e047395a2d67a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/4/c/4cfda2047d0504fb2e8a81695b26496923456f54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/5/2/5239020ebe425b5e7d79710f05d1f782427e78da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/5/7/579c2c010a7dfab580ac58e87d48a19e711b7176" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/7/a/7a5da7c8934916972e9d6b62076a6663cb8fa3c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/7/b/7b190cf1995d28dad753a7c7184345a7097e22d1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/8/7/87fc375b3b36b7f28e55d31b819627997a327bb0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/9/7/97277116ca6e1c9797bcb86eb592deb80b1fac59" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/9/b/9bbcf519807f830415de896d18c1f41576193d08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/b/7/b713440b4a23056b24039194ca7438c089c1bb3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/b/8/b808954740944a6ac6a5fd3e6979285b9eddd180" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/d/6/d6193ec3edfd8c416bb7a1164257c50166469ff6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/d/7/d738f406ca34721f206d4f3fe406daa4b54f4f8d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/f/9/f9590cd73598b6f2427c8b1327d922c50d1dc504" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/0/7/073c7845930db8770de5d454f553e2f0c9e865db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/0/c/0c48d6757bd1ac38671f2d30ae15a9b8d4093224" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/1/2/120cc357127df6163d4f1d0f39636a84b834c9db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/1/c/1c92bc1c4cbf5e9e4e79afea7fac471cc07b60ea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/2/a/2a341ee82c4f1b6dba63959ad6b4ffe24f3df33b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/3/6/3653015157e5d7085f16d34e45f58f08535d8586" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/3/6/36bcc80ebc3cfb63a4b3b6d116f98355d8c71b47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/4/3/4349725890ad128c2bb0b602c6d38ce8dd4ced79" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/4/8/485b3e7ca87e5489a707337db79e047395a2d67a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/4/c/4cfda2047d0504fb2e8a81695b26496923456f54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/5/2/5239020ebe425b5e7d79710f05d1f782427e78da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/5/7/579c2c010a7dfab580ac58e87d48a19e711b7176" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/7/a/7a5da7c8934916972e9d6b62076a6663cb8fa3c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/7/b/7b190cf1995d28dad753a7c7184345a7097e22d1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/8/7/87fc375b3b36b7f28e55d31b819627997a327bb0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/9/7/97277116ca6e1c9797bcb86eb592deb80b1fac59" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/9/b/9bbcf519807f830415de896d18c1f41576193d08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/b/7/b713440b4a23056b24039194ca7438c089c1bb3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/b/8/b808954740944a6ac6a5fd3e6979285b9eddd180" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/d/6/d6193ec3edfd8c416bb7a1164257c50166469ff6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/d/7/d738f406ca34721f206d4f3fe406daa4b54f4f8d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/f/9/f9590cd73598b6f2427c8b1327d922c50d1dc504" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f7ec4d3b2a2af83dd5cc3761219c95254694515" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/f/0f7ec4d3b2a2af83dd5cc3761219c95254694515" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ApplicationBackendConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/entity/Employeur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/entity/Salary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/EmployeurRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/SalaryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/EmployeurService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/EmployeurServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common/src/proto/employeur.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/java/org/example/component/BodyComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/java/org/example/component/HeaderComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/java/org/example/component/SearchInputView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/java/org/example/component/SearchTableView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/java/org/example/component/TabColumnComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/java/org/example/config/BasicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/java/org/example/fragment/DetailBodyFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/java/org/example/fragment/SearchBodyFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/java/org/example/main/ApplicationLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/java/org/example/perspective/MainPerspective.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/java/org/example/workbench/JacpFXWorkbench.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/bundles/languageBundle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/bundles/languageBundle_de.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/bundles/languageBundle_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/bundles/languageBundle_fr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/fxml/ComponentRight.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/fxml/DialogFragment.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/fxml/body-component-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/fxml/default-layout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/fxml/detail-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/fxml/header-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/fxml/main-2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/fxml/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/fxml/perspectiveTwo.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/fxml/search-input-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/fxml/search-main-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/fxml/search-table-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/fxml/search-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/fxml/tabColumn-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/images/Monitor-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/images/detail-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/images/import-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/images/research-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/styles/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/styles/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\apache-maven-3.6.3-default" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2bzn2B9OCrUzm6t7LcCYzwei9iV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/TNHU/Documents/employeur-project/frontend",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2223618",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-f644763e9732-f719d367" />
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dd40a89-9643-4a4a-80b5-7ab675c03a39" name="Changes" comment="" />
+      <created>1707226564805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707226564805</updated>
+    </task>
+    <servers />
+  </component>
+</project>

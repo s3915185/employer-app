@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="tableLayout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="1024" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+  <columns>
+    <TableColumn fx:id="caisseColumn" prefWidth="75.0" text="Caisse" />
+    <TableColumn fx:id="numéroColumn" prefWidth="75.0" text="Numéro" />
+      <TableColumn fx:id="numéroIDEColumn" prefWidth="75.0" text="Numéro IDE" />
+      <TableColumn fx:id="nomColumn" prefWidth="75.0" text="Nom" />
+      <TableColumn fx:id="dateAffiliationColumn" prefWidth="127.0" text="Date d'affiliation" />
+      <TableColumn fx:id="dateRadiationColumn" prefWidth="116.0" text="Date de radiation" />
+  </columns>
+</TableView>

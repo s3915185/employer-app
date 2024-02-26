@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #f5efee;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox style="-fx-background-color: transparent;">
+         <children>
+            <BorderPane prefHeight="100.0" prefWidth="1280.0" style="-fx-background-color: #f5efee;">
+               <left>
+                  <HBox id="shadowPane" alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="350.0" style="-fx-background-color: #d95b66;" stylesheets="@../../styles/table.css" BorderPane.alignment="CENTER_LEFT">
+                     <children>
+                        <BorderPane prefHeight="200.0" prefWidth="290.0">
+                           <left>
+                              <StackPane maxHeight="50.0" maxWidth="60.0" prefHeight="60.0" prefWidth="50.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../images/logo_elca.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </StackPane>
+                           </left>
+                           <right>
+                              <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <Label prefHeight="33.0" prefWidth="82.0" text="Gestion" textFill="WHITE">
+                                       <font>
+                                          <Font name="Candara Bold" size="25.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="10.0" layoutY="10.0" prefHeight="33.0" prefWidth="200.0" text="des Employeurs" textFill="WHITE">
+                                       <font>
+                                          <Font name="Candara Bold" size="25.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </right>
+                        </BorderPane>
+                     </children>
+                     <padding>
+                        <Insets right="30.0" />
+                     </padding>
+                  </HBox>
+               </left>
+               <right>
+                  <HBox id="shadowPane" alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="300.0" stylesheets="@../../styles/table.css" BorderPane.alignment="BOTTOM_RIGHT">
+                     <children>
+                        <StackPane id="shadowPane" layoutX="110.0" layoutY="10.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff; -fx-background-radius: 20;">
+                           <children>
+                              <HBox alignment="CENTER" prefHeight="100.0" prefWidth="100.0">
+                                 <children>
+                                    <Label text="EN" textFill="#f5efee">
+                                       <font>
+                                          <Font name="Candara Bold" size="25.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="44.0" layoutY="44.0" text="|" textFill="#59a6c6">
+                                       <font>
+                                          <Font name="Candara Bold" size="25.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="59.0" layoutY="44.0" text="FR" textFill="#59a6c6">
+                                       <font>
+                                          <Font name="Candara Bold" size="25.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                        <StackPane id="shadowPane" layoutX="110.0" layoutY="10.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff; -fx-background-radius: 20;" stylesheets="@../../styles/table.css">
+                           <children>
+                              <Label text="Aide" textFill="#59a6c6">
+                                 <font>
+                                    <Font name="Candara Bold" size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane id="shadowPane" layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff; -fx-background-radius: 20;" stylesheets="@../../styles/table.css">
+                           <children>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../images/setting-icon.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </StackPane>
+                     </children>
+                  </HBox>
+               </right>
+            </BorderPane>
+            <HBox prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: transparent;">
+               <children>
+                  <StackPane id="shadowPane" prefHeight="700.0" prefWidth="350.0" stylesheets="@../../styles/table.css">
+                     <children>
+                        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d95b66;" />
+                        <VBox alignment="TOP_RIGHT" prefHeight="200.0" prefWidth="100.0" stylesheets="@../../styles/table.css">
+                           <children>
+                              <Line endX="98.0" fill="#dadada" layoutX="261.0" layoutY="71.0" startX="-250.0" stroke="#fc9292" strokeWidth="2.0" />
+                              <StackPane id="tab" alignment="CENTER_RIGHT" prefHeight="60.0" prefWidth="350.0" stylesheets="@../../styles/table.css">
+                                 <children>
+                                    <Label stylesheets="@../../styles/table.css" text="Recherche" textFill="WHITE">
+                                       <font>
+                                          <Font name="Candara" size="25.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets right="30.0" />
+                                 </padding>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </StackPane>
+                              <Line endX="98.0" fill="#dadada" startX="-250.0" stroke="#fc9292" strokeWidth="2.0" />
+                              <StackPane id="tab" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="350.0">
+                                 <children>
+                                    <Label text="Détails de l'employeur" textFill="WHITE">
+                                       <font>
+                                          <Font name="Candara" size="25.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets right="30.0" />
+                                 </padding>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </StackPane>
+                              <Line endX="98.0" fill="#dadada" layoutX="261.0" layoutY="71.0" startX="-250.0" stroke="#fc9292" strokeWidth="2.0" />
+                              <StackPane id="tab" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="74.0" prefHeight="60.0" prefWidth="350.0" stylesheets="@../../styles/table.css">
+                                 <padding>
+                                    <Insets right="30.0" />
+                                 </padding>
+                                 <children>
+                                    <Label text="Fichiers exportés" textFill="WHITE">
+                                       <font>
+                                          <Font name="Candara" size="25.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </StackPane>
+                              <Line endX="98.0" fill="#dadada" layoutX="261.0" layoutY="135.0" startX="-250.0" stroke="#fc9292" strokeWidth="2.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </StackPane>
+                  <GridPane maxHeight="800.0" prefHeight="800.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="290.0" minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <GridPane maxHeight="400.0" prefHeight="350.0" style="-fx-background-color: transparent;">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <StackPane id="shadowPane" alignment="TOP_LEFT" stylesheets="@../../styles/table.css">
+                                 <children>
+                                    <Pane maxWidth="290.0" prefHeight="200.0" prefWidth="350.0" style="-fx-background-color: #ffffff; -fx-background-radius: 20;">
+                                       <StackPane.margin>
+                                          <Insets />
+                                       </StackPane.margin>
+                                    </Pane>
+                                    <BorderPane prefHeight="200.0" prefWidth="200.0">
+                                       <bottom>
+                                          <Pane maxHeight="258.0" maxWidth="900.0" prefHeight="208.0" prefWidth="350.0" style="-fx-background-color: #ffffff; -fx-background-radius: 20;" BorderPane.alignment="CENTER" />
+                                       </bottom>
+                                    </BorderPane>
+                                    <StackPane style="-fx-background-color: transparent; -fx-background-radius: 20;">
+                                       <children>
+                                          <VBox fx:id="mainLayout" maxHeight="500.0" maxWidth="1007.0" prefHeight="355.0" prefWidth="1007.0" style="-fx-background-color: transparent;">
+                                             <children>
+                                                <HBox alignment="CENTER_LEFT" maxHeight="144.0" prefHeight="60.0" prefWidth="848.0">
+                                                   <children>
+                                                      <Label text="Détails de l'employeur">
+                                                         <font>
+                                                            <Font name="Candara Bold" size="25.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <GridPane hgap="40.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="850.0" style="-fx-background-color: transparent;">
+                                                   <columnConstraints>
+                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                   </columnConstraints>
+                                                   <rowConstraints>
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                   </rowConstraints>
+                                                   <children>
+                                                      <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                                                         <children>
+                                                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Caisse">
+                                                               <font>
+                                                                  <Font name="Candara" size="16.0" />
+                                                               </font>
+                                                            </Text>
+                                                            <ChoiceBox fx:id="caisseChoicebox" prefHeight="28.0" prefWidth="260.0" stylesheets="@../../styles/table.css">
+                                                               <cursor>
+                                                                  <Cursor fx:constant="HAND" />
+                                                               </cursor>
+                                                            </ChoiceBox>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" spacing="10.0" GridPane.columnIndex="1">
+                                                         <children>
+                                                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Numéro">
+                                                               <font>
+                                                                  <Font name="Candara" size="16.0" />
+                                                               </font>
+                                                            </Text>
+                                                            <TextField fx:id="NuméroField" stylesheets="@../../styles/table.css" />
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" spacing="10.0" GridPane.columnIndex="2">
+                                                         <children>
+                                                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Date d'affiliation">
+                                                               <font>
+                                                                  <Font name="Candara" size="16.0" />
+                                                               </font>
+                                                            </Text>
+                                                            <DatePicker fx:id="dateAffiliationField" prefHeight="26.0" prefWidth="260.0" stylesheets="@../../styles/table.css" />
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" spacing="10.0" GridPane.rowIndex="1">
+                                                         <children>
+                                                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nom">
+                                                               <font>
+                                                                  <Font name="Candara" size="16.0" />
+                                                               </font>
+                                                            </Text>
+                                                            <TextField fx:id="nomField" stylesheets="@../../styles/table.css" />
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                                         <children>
+                                                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Numéro IDE">
+                                                               <font>
+                                                                  <Font name="Candara" size="16.0" />
+                                                               </font>
+                                                            </Text>
+                                                            <TextField fx:id="numéroIDEField" prefHeight="26.0" prefWidth="269.0" stylesheets="@../../styles/table.css" />
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" spacing="10.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                                         <children>
+                                                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Date de radiation">
+                                                               <font>
+                                                                  <Font name="Candara" size="16.0" />
+                                                               </font>
+                                                            </Text>
+                                                            <DatePicker fx:id="dateRadiationField" prefHeight="26.0" prefWidth="261.0" stylesheets="@../../styles/table.css" />
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </GridPane>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                       <padding>
+                                          <Insets left="20.0" right="20.0" />
+                                       </padding>
+                                    </StackPane>
+                                 </children>
+                              </StackPane>
+                           </children>
+                           <padding>
+                              <Insets bottom="20.0" left="20.0" right="20.0" />
+                           </padding>
+                        </GridPane>
+                        <GridPane style="-fx-background-color: transparent;" GridPane.rowIndex="1">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <padding>
+                              <Insets bottom="20.0" left="20.0" right="20.0" />
+                           </padding>
+                           <children>
+                              <StackPane id="shadowPane" alignment="TOP_CENTER" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-background-radius: 20;" stylesheets="@../../styles/table.css">
+                                 <padding>
+                                    <Insets bottom="20.0" left="20.0" right="20.0" />
+                                 </padding>
+                                 <children>
+                                    <GridPane>
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <BorderPane>
+                                             <left>
+                                                <Label text="Déclaration annuelle des salaires" BorderPane.alignment="TOP_CENTER">
+                                                   <font>
+                                                      <Font name="Candara Bold" size="25.0" />
+                                                   </font>
+                                                </Label>
+                                             </left>
+                                             <right>
+                                                <HBox alignment="CENTER_RIGHT" maxHeight="20.0" maxWidth="500.0" prefHeight="20.0" prefWidth="400.0" spacing="20.0" BorderPane.alignment="TOP_LEFT">
+                                                   <children>
+                                                      <TextField prefWidth="300.0" promptText="C:\" />
+                                                      <Label fx:id="rechercherButton" text="Importer" textFill="#59a6c6">
+                                                         <font>
+                                                            <Font name="Candara Bold" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                             </right>
+                                             <padding>
+                                                <Insets top="20.0" />
+                                             </padding>
+                                          </BorderPane>
+                                          <TableView fx:id="tableLayout" editable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="850.0" stylesheets="@../../styles/table.css" GridPane.rowIndex="1">
+                                             <columns>
+                                                <TableColumn fx:id="caisseColumn" prefWidth="116.0" text="Numéro AVS" />
+                                                <TableColumn fx:id="numéroColumn" prefWidth="97.0" text="Nom" />
+                                                <TableColumn fx:id="numéroIDEColumn" text="Prénom" />
+                                                <TableColumn fx:id="nomColumn" prefWidth="101.0" text="Date Début" />
+                                                <TableColumn fx:id="dateAffiliationColumn" prefWidth="104.0" text="Date Fin" />
+                                                <TableColumn fx:id="dateRadiationColumn" prefWidth="89.0" text="AVS/AI/APG" />
+                                                <TableColumn fx:id="dateRadiationColumn1" prefWidth="87.0" text="AC" />
+                                                <TableColumn fx:id="dateRadiationColumn11" prefWidth="86.0" text="AF" />
+                                             </columns>
+                                          </TableView>
+                                          <HBox alignment="CENTER_RIGHT" spacing="20.0" GridPane.rowIndex="2">
+                                             <children>
+                                                <Label fx:id="rechercherButton1" text="Retourner" textFill="#59a6c6">
+                                                   <font>
+                                                      <Font name="Candara Bold" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label fx:id="rechercherButton11" layoutX="10.0" layoutY="10.0" text="Enregistrer" textFill="#d95b66">
+                                                   <font>
+                                                      <Font name="Candara Bold" size="18.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </GridPane>
+                                 </children>
+                              </StackPane>
+                           </children>
+                        </GridPane>
+                     </children>
+                  </GridPane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
